@@ -1,0 +1,35 @@
+.posts {
+    max-width: 956px;
+    margin-left: auto;    
+    position: relative;
+    &__title {
+        font-weight: 600;
+        font-size: 43px;
+        line-height: 48px;
+        color: #384758;
+        margin-bottom: 27px;
+    }
+    .post {
+        &__title {
+            font-weight: 500;
+            font-size: 24px;
+            line-height: 28px;
+            color: #384758;
+        }
+        &__body {
+            font-weight: 400;
+            font-size: 20px;
+            line-height: 28px;
+            color: #606F81;
+        }
+    }
+    &::before {
+        position: absolute;
+        content: '';
+        left: -134px;
+        top: 0;
+        width: 100px;
+        height: 78px;
+        background: url(../../img/points.png);
+    }
+}

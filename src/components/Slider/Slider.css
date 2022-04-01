@@ -1,0 +1,73 @@
+.sliders {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  gap: 20px;
+}
+.sliders .slider {
+  cursor: pointer;
+}
+.sliders .slider__content {
+  max-width: 1280px;
+  margin: 0 auto;
+  overflow: hidden;
+}
+.sliders .slider__wrap {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 40px;
+  -webkit-transition: -webkit-transform 0.5s;
+  transition: -webkit-transform 0.5s;
+  transition: transform 0.5s;
+  transition: transform 0.5s, -webkit-transform 0.5s;
+}
+.sliders .slider__buttons {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  gap: 19px;
+}
+.sliders .slider__buttons button {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  background: transparent;
+  border: none;
+  border-radius: 100%;
+  cursor: pointer;
+}
+.sliders .slider .image {
+  width: 290px;
+  height: 320px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.sliders .slider .name {
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 36px;
+  color: #384758;
+  margin-top: 20px;
+  margin-bottom: 1px;
+}
+.activeSlide {
+  color: #FE8700;
+  position: relative;
+}
+.activeSlide::before {
+  content: '';
+  position: absolute;
+  bottom: 79px;
+  left: 0;
+  width: 100%;
+  height: 5px;
+  background-color: #FE8700;
+}

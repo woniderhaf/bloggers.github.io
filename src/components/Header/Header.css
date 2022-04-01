@@ -1,0 +1,18 @@
+.header {
+  text-align: center;
+  margin-bottom: 31px;
+}
+.header__title {
+  font-size: 48px;
+  line-height: 20px;
+  color: #384758;
+  margin-bottom: 47px;
+}
+.header__text {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 27px;
+  color: #606F81;
+  margin: 0 auto;
+  max-width: 432px;
+}

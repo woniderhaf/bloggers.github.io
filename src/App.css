@@ -1,0 +1,22 @@
+.body {
+    background-color: #fff;
+    position: relative;
+    overflow: hidden;
+}
+.container {
+    padding-top: 64px;
+    padding-bottom: 125px;
+    max-width: 1280px;
+    margin: 0 auto;
+}
+
+.bg__img1 {
+    position: absolute;
+    right: -100px;
+    top: 245px;
+}
+.bg__img2 {
+    position: absolute;
+    left: -104px;
+    bottom: 104px;
+}
